@@ -1,0 +1,75 @@
+/* Reset some default margins/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and font settings */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fafafa;
+  color: #333;
+  padding: 1rem;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Intro section */
+.intro {
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+}
+
+/* Gallery section */
+.gallery {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.gallery h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Dessert card layout */
+.dessert-card {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 1rem;
+  padding: 1rem;
+  display: inline-block;
+  width: calc(33% - 2rem); /* 3 items in a row */
+  vertical-align: top;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.dessert-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.dessert-card h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #e67e22;
+}
+
+.dessert-card p {
+  color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
